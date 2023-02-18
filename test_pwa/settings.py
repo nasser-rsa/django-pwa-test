@@ -14,7 +14,6 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-#PWA_SERVICE_WORKER_PATH = os.path.join(BASE_DIR, 'posts/static/js', 'serviceworker.js')
 
 
 # Quick-start development settings - unsuitable for production
@@ -26,7 +25,7 @@ SECRET_KEY = 'django-insecure-&(!t-iaa217jugxmup^r(&9)_c#e*+mzf^7si1_l)vpix7^gf(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
@@ -148,6 +147,6 @@ PWA_APP_ICONS_APPLE = [
     },
 ]
 
-
+#PWA_SERVICE_WORKER_PATH = os.path.join(BASE_DIR, 'posts/static/js', 'serviceworker.js')
 #PWA_SERVICE_WORKER_PATH = 'myserviceworker.js'
 #PWA_SERVICE_WORKER_SCRIPT = '/static/js/myserviceworker.js'
