@@ -1,1 +1,1 @@
-#Simple test Django PWA Travis CI and pythonanywhere
+# Simple test Django PWA Travis CI and pythonanywhere
