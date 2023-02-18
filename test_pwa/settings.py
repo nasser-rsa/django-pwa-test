@@ -137,13 +137,13 @@ PWA_APP_THEME_COLOR = '#0A0302'
 PWA_APP_STATUS_BAR = 'default'
 PWA_APP_ICONS = [
     {
-        'src': '/static/icons/icon-128x128.png',
+        'src': 'static/icons/icon-128x128.png',
         'sizes': '128x128'
     },
 ]
 PWA_APP_ICONS_APPLE = [
     {
-        'src': '/static/icons/icon-128x128.png',
+        'src': 'static/icons/icon-128x128.png',
         'sizes': '128x128'
     },
 ]
